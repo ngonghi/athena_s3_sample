@@ -14,8 +14,8 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
-
-	err = s3.Upload("/tmp/20170801_2.csv", "stg-btm-aainc", "test.csv")
+	
+	err = s3.Upload("/tmp/20170801_2.csv", "butket_name", "test.csv")
 
 	if err != nil {
 		panic(err)
